@@ -27,7 +27,7 @@ const tweets = [
 
 server.post("/sign-up", (req, res) => {
    users.push(req.body)
-   ActualUser = req.body
+   actualUser = req.body
    res.send("Ok")
 })
 
